@@ -21,15 +21,15 @@ export const exploreWorlds = [
   },
   {
     id: 'world-5',
-    imgUrl: '/vacads.jpg',
-    title: '',
+    imgUrl: '/oseansworld.jpg',
+    title: 'OseansWorld',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
+  'Search for artists onchain',
   'Add the Artists work to your archive',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'connect with other like minded collecters',
 ];
 
 export const newFeatures = [

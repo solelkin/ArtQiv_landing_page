@@ -15,7 +15,7 @@ const World = () => (
       viewport={{ once: 'false', amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| Artists of the world" textStyles="text-center" />
+      <TypingText title="connect with artists" textStyles="text-center text-white" />
       <TitleText
         title={(
           <>

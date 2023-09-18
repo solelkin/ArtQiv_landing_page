@@ -16,7 +16,7 @@
     hsl(295deg 76% 51%) 0%,
     hsl(284deg 70% 73%) 26%,
     hsl(257deg 70% 86%) 39%,
-    hsl(202deg 92% 90%) 50%,
+    hsl(110, 100%, 61%) 50%,
     hsl(215deg 77% 81%) 61%,
     hsl(221deg 73% 70%) 74%,
     hsl(220deg 76% 51%) 100%
@@ -27,7 +27,7 @@
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
+    #a509ff 10%,
     #34acc7 53.65%,
     #a134c7 100%
   );
@@ -40,7 +40,7 @@
   top: 0px;
   right: 0px;
 
-  background: #7aebfb;
+  background: #00ff22;
   filter: blur(190px);
 }
 
@@ -59,7 +59,7 @@
   left: 20%;
   top: 5%;
 
-  background: rgba(149, 66, 232, 0.35);
+  background: rgba(89, 255, 0, 0.35);
   filter: blur(175px);
   transform: rotate(-114.2deg);
 }

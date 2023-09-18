@@ -19,11 +19,11 @@ const Explore = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col py-10`}
       >
 
         <TypingText
-          title="| The World"
+          title="The Artists"
           textStyles="text-center"
         />
         <TitleText

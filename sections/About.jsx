@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TypingText, typingText } from '../components';
+import { TypingText } from '../components';
 
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
@@ -15,7 +15,7 @@ const About = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
+      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col py-10`}
     >
       <TypingText title="about ArtQive" textStyles="text-center" />
 
